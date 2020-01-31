@@ -105,8 +105,3 @@ def update(sender,instance,created,**kwargs):
             room = instance.Check_IN
             room.availability = avail + 1
             room.save()
-
-
-
-
-
